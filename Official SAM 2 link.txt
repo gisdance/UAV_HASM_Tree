@@ -1,0 +1,21 @@
+1.Segmenting remote sensing imagery with text prompts and the Segment Anything Model 2 (SAM 2)
+:https://samgeo.gishub.org/examples/sam2_text_prompts/
+
+2.Automatic Mask Generation with SAM 2
+:https://samgeo.gishub.org/examples/sam2_automatic/
+
+3.Generating object masks from input prompts with SAM 2
+:https://samgeo.gishub.org/examples/sam2_predictor/
+
+4.Segmenting objects from timeseries images with SAM 2
+:https://samgeo.gishub.org/examples/sam2_video/
+
+5.https://samgeo.gishub.org/examples/sam2_box_prompts/
+:https://samgeo.gishub.org/examples/sam2_box_prompts/
+
+6.Segmenting remote sensing imagery with point prompts
+:https://samgeo.gishub.org/examples/sam2_point_prompts/
+
+7.Tree Mapping with SAMGeo and Segment Anything Model 2 (SAM 2)
+:https://samgeo.gishub.org/examples/tree_mapping/
+

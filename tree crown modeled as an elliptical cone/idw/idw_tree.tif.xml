@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="zh"><Esri><CreaDate>20260112</CreaDate><CreaTime>21535600</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process Name="按掩膜提取" ToolSource="d:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Spatial Analyst Tools.tbx\ExtractByMask" Date="20260112" Time="215356">ExtractByMask D:\hasm_lunwen\最后补充实验260110\第三次\插值\乔木clip\idw乔木.tif Boundary_Pine_Pos_R2.5 D:\hasm_lunwen\最后补充实验260110\第三次\插值\结果\idw乔木.tif.tif</Process></lineage></DataProperties></Esri></metadata>
