@@ -1,0 +1,2 @@
+202205152102   0     0     0HASM C:\duzp\guokeda\wugongshandata\exwgsidw = SELECTMASK(C:\duzp\guokeda\wugongshandata\wgsidw, C:\Users\HASM\AppData\Local\Temp\arc636C\t_t723)
+202205152103   0     0     0HASM C:\duzp\guokeda\WUGONG~1\exwgs.TXT = GRIDASCII ( C:\duzp\guokeda\wugongshandata\exwgsidw )

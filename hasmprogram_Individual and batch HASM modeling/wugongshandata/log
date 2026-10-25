@@ -1,0 +1,8 @@
+202205131801   0     0     0HASM C:\duzp\guokeda\wugongshandata\wgsidw = IDW(wgs,  'DTM', #, 2.0, SAMPLE, 12, #, 100)
+202205132002   0     0     0HASM C:\duzp\guokeda\wugongshandata\exwgskri = SELECTMASK(C:\duzp\guokeda\wugongshandata\wgskri, C:\Users\HASM\AppData\Local\Temp\arc4196\t_t922)
+202205132002   0     0     0HASM C:\duzp\guokeda\wugongshandata\exwgsidw = SELECTMASK(C:\duzp\guokeda\wugongshandata\wgsidw, C:\Users\HASM\AppData\Local\Temp\arc4196\t_t923)
+202205152059   0     0     0HASM C:\duzp\guokeda\wugongshandata\exwgskri = SELECTMASK(C:\duzp\guokeda\wugongshandata\wgskri, C:\Users\HASM\AppData\Local\Temp\arc636C\t_t722)
+202205152100   0     0     0HASM C:\duzp\guokeda\wugongshandata\wgsidw = IDW(wgs,  'DTM', #, 2.0, SAMPLE, 12, #, 100)
+202205152101   0     0     0HASM C:\duzp\guokeda\wugongshandata\wgsidw = IDW(wgs,  'DTM', #, 2.0, SAMPLE, 12, #, 100)
+202205152102   0     0     0HASM C:\duzp\guokeda\wugongshandata\exwgsidw = SELECTMASK(C:\duzp\guokeda\wugongshandata\wgsidw, C:\Users\HASM\AppData\Local\Temp\arc636C\t_t723)
+202205152106   0     0     0HASM C:\duzp\guokeda\wugongshandata\wgskri2 = SELECTMASK(C:\duzp\guokeda\wugongshandata\wgskri, C:\duzp\guokeda\wugongshandata\wgsidw)

@@ -1,0 +1,2 @@
+202205152101   0     0     0HASM C:\duzp\guokeda\wugongshandata\wgsidw = IDW(wgs,  'DTM', #, 2.0, SAMPLE, 12, #, 100)
+202205152104   0     0     0HASM C:\duzp\guokeda\WUGONG~1\wgsidw.TXT = GRIDASCII ( C:\duzp\guokeda\wugongshandata\wgsidw )
