@@ -1,0 +1,85 @@
+{
+  "tree": {
+    "source": "tree.csv",
+    "source_sha256": "3829f162d1c77ef9055de95f90702eab758f304c51dd88609e2bb8ad6f4eba8d",
+    "source_points": 8800,
+    "training_points": 1200,
+    "validation_points": 1200,
+    "source_extent": [
+      7.3774,
+      7.4232,
+      12.5966,
+      12.5877
+    ],
+    "source_z_range": [
+      0.0001,
+      5.0895
+    ],
+    "grid": {
+      "ncols": 51,
+      "nrows": 51,
+      "xllcorner": 6.927,
+      "yllcorner": 6.945449999999999,
+      "cellsize": 0.12,
+      "nodata": -9999
+    },
+    "hull_vertices": 35,
+    "mask_valid_cells": 1453,
+    "points_within_hasm_interior": 8800,
+    "radial_degree": 1,
+    "radial_coefficients": [
+      5.002211835152058,
+      -4.335696821122726
+    ],
+    "radial_axes": {
+      "center_x": 9.981174499999998,
+      "center_y": 9.988267666666667,
+      "major_scale": 2.230619932700811,
+      "minor_scale": 2.1083786342088495,
+      "rotation_radians": 0.13316382268515536
+    },
+    "model_validation_rmse": 0.12040937316960802
+  },
+  "shrup": {
+    "source": "shrup.csv",
+    "source_sha256": "da633646426ae026175071b42cc4797d543e19b010b4c9b42dbc91f046439b91",
+    "source_points": 9800,
+    "training_points": 1200,
+    "validation_points": 1200,
+    "source_extent": [
+      6.903,
+      6.8821,
+      13.1844,
+      13.177
+    ],
+    "source_z_range": [
+      0.0,
+      4.1751
+    ],
+    "grid": {
+      "ncols": 51,
+      "nrows": 51,
+      "xllcorner": 6.473699999999999,
+      "yllcorner": 6.45955,
+      "cellsize": 0.14,
+      "nodata": -9999
+    },
+    "hull_vertices": 34,
+    "mask_valid_cells": 1578,
+    "points_within_hasm_interior": 9800,
+    "radial_degree": 2,
+    "radial_coefficients": [
+      4.0701783948796635,
+      -0.37656143442124357,
+      -3.747832408250097
+    ],
+    "radial_axes": {
+      "center_x": 10.036046583333341,
+      "center_y": 10.041009833333312,
+      "major_scale": 3.054369671073444,
+      "minor_scale": 3.044792678184604,
+      "rotation_radians": -0.8830009110347978
+    },
+    "model_validation_rmse": 0.176275452915076
+  }
+}
