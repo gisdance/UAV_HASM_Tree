@@ -88,7 +88,7 @@ Following the "simulation validation–field application" strategy of the paper:
 
 1. **Study-area data and reference labels** — UAV imagery (0.05 m) and LiDAR point clouds of the Huifeng Campus; manually delineated crowns in `label/`.
 2. **Simulation validation** — reproduce the experiments on `Simulate Original Points/` (cone and paraboloid models with Gaussian noise) using the simulation system in `Simulation System + Software Copyright/`; compare HASM with IDW, Kriging, and TIN against the analytical surface-area and volume references.
-3. **Crown segmentation with SAM 2** — run the three SAM 2 notebooks (inference was performed on Google Colab with an NVIDIA A100 GPU; morphological post-processing — opening, closing, and hole filling — refines the masks) and evaluate against `label/` (IoU 82.51%, area recall 87.20%).
+3. **Crown segmentation with SAM 2** — run the three SAM 2 notebooks (inference was performed on Google Colab with an NVIDIA A100 GPU; morphological post-processing — opening, closing, and hole filling — refines the masks) and evaluate against `label/` (IoU 82.52%, area recall 87.20%).
 4. **Crown-contour feature-point extraction** — `Histogram Point Cloud.ipynb` for histogram-based filtering of the point cloud, `Extraction of Contour Feature Points for Individual Trees.ipynb` (single tree) or `Batch Extraction of Contour Feature Points from Multiple Tree Rings.ipynb` (batch), and `Calculating removal rate.ipynb` for removal-rate statistics.
 5. **Surface reconstruction and comparison** — run `hasmprogram_Individual and batch HASM modeling/` with manually delineated or SAM 2-derived masks as boundary constraints, and `Traditional and HASM modeling/` for the TIN/Kriging/IDW comparison.
 
