@@ -83,7 +83,7 @@ Four main modules:
 
 1. **Study-area data and reference labels** — UAV imagery, LiDAR point clouds, and `label/` crowns.
 2. **Simulation validation** — reproduce experiments on `Simulate Original Points/` using the simulation system; compare HASM with IDW, Kriging, TIN against analytical references.
-3. **Crown segmentation with SAM 2** — run the three notebooks (inference on Google Colab, NVIDIA A100; morphological post-processing: opening, closing, hole filling); evaluate against `label/` (IoU 82.52%, area recall 87.20%).
+3. **Crown segmentation with SAM 2** — run the three notebooks (inference on Google Colab, NVIDIA A100; morphological post-processing: opening, closing, hole filling); evaluate against `label/` (IoU 82.51%, area recall 87.20%).
 4. **Feature-point extraction** — histogram filtering, single-tree or batch extraction, removal-rate statistics.
 5. **Surface reconstruction and comparison** — run the HASM program with manual or SAM 2 masks, plus the traditional-methods comparison.
 
@@ -106,7 +106,7 @@ Four main modules:
 ```bibtex
 @Article{he2026hasm,
   author  = {He, Maoyang and Yue, Tianxiang and Wei, Binggan and Zhao, Mingwei},
-  title   = {Fine-Scale 3D Reconstruction of Individual-Tree Crowns by Integrating SAM 2 and HASM},
+  title   = {Fine-Scale 3D Reconstruction of Individual-Tree Crowns Using an Integrated SAM 2–HASM Framework},
   journal = {Remote Sensing},
   year    = {2026},
   note    = {Manuscript submitted to Remote Sensing (MDPI) for review}
