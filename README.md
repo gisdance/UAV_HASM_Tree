@@ -23,12 +23,24 @@ Experiments were conducted on the Huifeng Campus of Chuzhou University, Chuzhou,
 ## Workflow
 
 ```mermaid
-flowchart LR
+flowchart TB
     A["UAV RGB imagery (0.05 m)"] -->|"SAM 2 segmentation"| B["Individual-crown masks"]
     C["UAV LiDAR point clouds"] -->|"Elevation slicing + histogram filtering"| D["Crown-contour feature points"]
     D -->|"IDW initial field"| E["HASM surface reconstruction"]
     B -->|"Boundary constraint"| E
     E --> F["Continuous 3D crown surfaces<br>(2D projected area · 3D surface area · volume)"]
+
+    classDef inputData fill:#e6f4ea,stroke:#2da44e,color:#1f2328
+    classDef sam2 fill:#f0e7ff,stroke:#7048e8,color:#1f2328
+    classDef lidar fill:#e0f7fa,stroke:#1b9e9b,color:#1f2328
+    classDef hasm fill:#fff3d6,stroke:#d4a72c,color:#1f2328
+    classDef output fill:#ddf4ff,stroke:#0969da,color:#1f2328
+    class A inputData
+    class B sam2
+    class C inputData
+    class D lidar
+    class E hasm
+    class F output
 ```
 
 Four main modules:
