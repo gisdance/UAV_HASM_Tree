@@ -1,6 +1,6 @@
 # UAV_HASM_Tree
 
-### Fine-Scale 3D Reconstruction of Individual-Tree Crowns by Integrating SAM 2 and HASM
+### Fine-Scale 3D Reconstruction of Individual-Tree Crowns Using an Integrated SAM 2–HASM Framework
 
 **Maoyang He · Tianxiang Yue · Binggan Wei · Mingwei Zhao**
 
